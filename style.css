@@ -1,0 +1,213 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(#1b2847, #000000,#000000,#000000);
+  color: #ffff;
+}
+p,h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+.buttons {
+  background-color: #1db954;
+  padding: 13px 40px;
+  border-radius: 20px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all ease-in-out 0.1s;
+}
+.buttons:hover {
+  background-color: #39d56d;
+  padding: 14px 41px;
+  color: #ffff;
+  
+}
+header {
+  padding: 30px 60px 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head_con2 {
+  display: flex;
+  position: fixed;
+  right: 50px;
+  gap: 50px;
+}
+.Header_main {
+  font-size: 4.375em;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #ffff;
+  margin-bottom: -15px;
+}
+.Header_main:hover {
+  color: #39d56d;
+  text-decoration: underline;
+}
+.Head_right_con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Spotify {
+  width: 55px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.bandlab {
+  width: 20px;
+  margin-left: 10px;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 50px 120px 100px ;
+  gap: 50px;
+}
+.SecRight,.SecLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.SecRight h1 {
+  font-size: 3em;
+}
+.SecRight a {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  transition: all ease-in-out 0.1s;
+
+}
+.SecRight a:hover {
+  text-decoration: underline;
+  color: #1db954;
+}
+.SecRight img {
+  width: 510px;
+  height: auto;
+  border-radius: 20px;
+  transition: all ease-in-out 0.1s;
+}
+.SecRight img:hover {
+  box-shadow: 0 0 10px 3px #949292;
+}
+.SecLeft {
+  padding: 70px 0 0 0 ;
+  flex: 1;
+  display: flex;
+  align-items: start;
+}
+.SecLeft h3 {
+  margin-bottom: 20px;
+  text-align: start !important;
+}
+.SecLeft .Track {
+  width: 100%;
+ height: 500px; 
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.Bottom {
+margin-top: 50px;
+display: flex;
+align-items: center;
+
+}
+.Profile {
+  display: flex;
+  flex-direction: column;
+}
+.Pic {
+  width: 500px;
+  height: 600px;
+}
+.name {
+  font-size: 3.1em;
+}
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+ margin-left: -200px;
+}
+.Infos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding-left: px;
+  font-size: 1.2em;
+  width: 500px;
+}
+.Socmeds {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  padding: 20px 0;
+
+}
+.Socmeds img{
+ width: 40px;
+ transition: all ease-in-out .1s;
+}
+.band {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0 0 0;
+}
+.Socmeds img:hover {
+  background: transparent;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px gray);
+  width: 44px;
+ }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 430px;
+  width: 250px;
+  background: linear-gradient(#1b2847,#000000);
+  padding: 30px;
+  border-radius: 10px;
+  gap: 20px 0;
+  text-align: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.links img {
+  width: 40px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.links a {
+  color: #ffff;
+  text-decoration: none;
+  
+}
+.links a:hover {
+  color: #1db954;
+  text-decoration: underline;
+}
+.links img:hover {
+  background: transparent;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px gray);
+}
