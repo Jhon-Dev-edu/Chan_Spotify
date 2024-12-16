@@ -170,7 +170,6 @@ align-items: center;
 }
 .Socmeds img:hover {
   background: transparent;
-  border-radius: 50%;
   filter: drop-shadow(0 0 10px gray);
   transform: scale(1.1);
  }
